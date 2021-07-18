@@ -20,19 +20,11 @@
 }
 
 .heavy2 {
-  font-size: 0.5rem;
+  font-size: 0.4rem;
 }
 
 .sidebar {
   height: 100%;
-}
-
-#slider {
-  width: 80%;
-}
-
-.slidecontainer {
-  display: none;
 }
 
 .apparatus {
@@ -63,33 +55,9 @@
   display: none;
 }
 
-.animation-video {
-  display: none;
-  width: auto;
-}
-
-#animation-bottom-right {
-  max-height: 600px;
-  max-width: auto;
-}
-
-.plotted-graph-window {
-  display: none;
-  width: auto;
-}
-
-#chart-container {
-  max-height: 620px;
-  max-width: auto;
-}
-
 #microwave-row,
 #mold-row {
   visibility: hidden;
-}
-
-figcaption {
-  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 769px) {
