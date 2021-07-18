@@ -237,7 +237,7 @@ async function moveBeaker() {
     transY = 200;
     transX = -50;
   }
-  if (divWidth < 1693) {
+  if (divWidth < 1760) {
     transX = 200;
   }
   if (overallIteration === 4) {
@@ -311,7 +311,7 @@ async function moveSyringe() {
     });
 
     let startX = "-1040%";
-    let startY = "-410%";
+    let startY = "-310%";
     let endX = "240%";
     let endY = "-245%";
 
@@ -319,7 +319,7 @@ async function moveSyringe() {
 
     if (divWidth > 1759) {
       startX = "-1300%";
-      startY = "-370%";
+      startY = "-310%";
       endX = "150%";
       endY = "-135%";
     }
