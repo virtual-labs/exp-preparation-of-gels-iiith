@@ -233,12 +233,12 @@ async function moveBeaker() {
   let transX = 250;
   let transY = -120;
   screenWidth();
+  if (divWidth < 1760) {
+    transX = 200;
+  }
   if (divWidth < 769) {
     transY = 200;
     transX = -50;
-  }
-  if (divWidth < 1760) {
-    transX = 200;
   }
   if (overallIteration === 4) {
     a1.add({
