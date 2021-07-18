@@ -230,11 +230,18 @@ async function moveBeaker() {
     duration: 800,
     easing: "easeInOutSine",
   });
+  let transX = 250;
+  let transY = -120;
+  screenWidth();
+  if (divWidth < 769) {
+    transY = 310;
+    transX = -50;
+  }
   if (overallIteration === 4) {
     a1.add({
       duration: 1000,
-      translateY: -260,
-      translateX: 250,
+      translateY: transY,
+      translateX: transX,
       scale: 0.45,
     }).add({
       opacity: 0,
@@ -316,7 +323,7 @@ async function moveSyringe() {
 
     if (divWidth < 769) {
       startX = "260%";
-      startY = "-1550%";
+      startY = "-890%";
       endX = "120%";
       endY = "-280%";
     }
