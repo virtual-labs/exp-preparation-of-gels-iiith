@@ -2,7 +2,7 @@
 
 Agar-agar is extracted from marine agarophytes algae. Agar is the dried hydrophilic, colloidal substance. Chemically it is a complex mixture of polysaccharides composed of two major fractions – agarose and agaropectin units. An agarose chain is a neutral alternating copolymer of β1,3-linked D-galactose and α-1,4-linked 3,6-anhydro-L-galactose (Figure 1). Normally agarose represents about two-thirds of the natural agar-agar. Agarose is the gelling fraction. Agaropectin is composed of agarose substituted at irregular intervals with sulphate esters, methyl esters, and/or pyruvate residues. It probably exists in the form of calcium salt or a mixture of calcium and magnesium salts.  
 
-<img src="images/pic1.jpg">  
+<img src="images/pic1.jpg"> 
 
 Fig1. Structure of an agarose polymer.  
 
