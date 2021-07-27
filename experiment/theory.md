@@ -2,7 +2,7 @@
 
 Agar-agar is extracted from marine agarophytes algae. Agar is the dried hydrophilic, colloidal substance. Chemically it is a complex mixture of polysaccharides composed of two major fractions – agarose and agaropectin units. An agarose chain is a neutral alternating copolymer of β1,3-linked D-galactose and α-1,4-linked 3,6-anhydro-L-galactose (Figure 1). Normally agarose represents about two-thirds of the natural agar-agar. Agarose is the gelling fraction. Agaropectin is composed of agarose substituted at irregular intervals with sulphate esters, methyl esters, and/or pyruvate residues. It probably exists in the form of calcium salt or a mixture of calcium and magnesium salts.  
 
-<center><img src="images/pic1.png">  </center>  
+<img src="images/pic1.png">  
 
 Fig1. Structure of an agarose polymer.  
 
@@ -10,7 +10,7 @@ The solubility as well as gel-forming ability of agar polysaccharides depends on
 
 The agarose chain forms anti-symmetric double helices on cooling that form clumps of helices due to hydrogen bonding. The double helical form of agarose has been proposed to be an intermediate in gelation. Three equatorial hydrogen atoms on the 3,6-anhydro-L-galactose residues, which constrain the molecule to form a helix, give rise to the gelling property of agar-agar. The interaction of the helices causes the formation of the gel. Exterior hydroxyl groups causes aggregation of up to 10,000 of these helices forming suprafibers. The fibre bundles and microgel domains are held together by hydrogen-bonds. These helices interact and grow into still larger structural units eventually forming a three-dimensional continuous network spanning the entire volume of the liquid.  The network structure results in the interstitial pockets of 50 – 200 nm diameters. The liquid is entrapped in the interstitial pockets of the network. Though gels are mostly liquid both by volume and weight, yet they do not flow when in the steady-state and exhibit solid-like behaviour due to the three-dimensional cross-linked network within the liquid. Thermodynamically, the process involves a balance between particle-particle interactions and the particle-solvent interactions in solution. The loss of conformational freedom and hydration energy on gelation is compensated by energetically favourable chain-chain interactions. Agar gel and some other gels melt to liquid states if they are reheated. Because the forces (like configurational entropy) favouring the amorphous state outweigh those (like hydrogen bonds) favouring the aggregated state.  
 
- <center><img src="images/pic2.png">  </center>  
+<img src="images/pic2.png">
 
 Fig2. Development of network structure in agarose gel. (Courtesy: T Laas, Doctoral Thesis, Acta Universitatis Upsaliensis, 1975).  
 
