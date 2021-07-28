@@ -3,9 +3,12 @@ let overallIteration = -4;
 let divWidth;
 let videoSpeed = 1;
 let speedFactor = 1.0;
+let gel_color = "#556c80";
+let yellow = "#b0b816";
+let purple = "#a37bd1";
 
 let fillSyringe = async () => {
-  document.getElementById("line3").style.stopColor = "#556c80";
+  document.getElementById("line3").style.stopColor = gel_color;
   const line = document.getElementById("half-grad3");
   const yFinalPosition = 0;
   let yPos = 100;
@@ -73,7 +76,7 @@ function pur() {
       .add({
         translateY: "-125%",
         update: function (anim) {
-          document.getElementById("spoon-mouth").style.fill = "#b0b816";
+          document.getElementById("spoon-mouth").style.fill = yellow;
           document.getElementById("spoon-mouth").style.opacity = "1";
         },
       })
@@ -88,9 +91,9 @@ function pur() {
       })
       .add({
         update: function (anim) {
-          document.getElementById("spoon-mouth").style.fill = "#b0b816";
+          document.getElementById("spoon-mouth").style.fill = yellow;
           document.getElementById("spoon-mouth").style.opacity = "0";
-          document.getElementById("pink-bottom").style.fill = "#b0b816";
+          document.getElementById("pink-bottom").style.fill = yellow;
         },
         opacity: 0,
       });
@@ -168,7 +171,7 @@ async function movePipette() {
       })
       .add({
         update: function (anim) {
-          document.getElementById("layer-above-pink").style.fill = "#a37bd1";
+          document.getElementById("layer-above-pink").style.fill = purple;
         },
         opacity: 0,
       });
@@ -206,8 +209,8 @@ async function shakeBeaker() {
       })
       .add({
         update: function (anim) {
-          document.getElementById("layer-above-pink").style.fill = "#556c80";
-          document.getElementById("pink-bottom").style.fill = "#556c80";
+          document.getElementById("layer-above-pink").style.fill = gel_color;
+          document.getElementById("pink-bottom").style.fill = gel_color;
         },
       });
     document
