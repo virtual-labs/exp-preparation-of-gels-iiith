@@ -432,7 +432,7 @@ let instructionMessages = [
   "Click on the  Solution Beaker to shake it and make a clear solution.",
   "Click on the Solution Beaker to place it in the Microwave. The solution needs to be heated on high temperature for some time.",
   "Click on the Microwave now to take out the Solution Beaker.",
-  "Click on the Solution Beaker to transer some amount of the Gel Solution to the Gel Mold",
+  "Click on the Solution Beaker to transfer some amount of the Gel Solution to the Gel Mold",
   "Wait for the Gel Solution to cool down in the mold and then you have succesfully prepared your Gel.",
 ];
 let iter1 = -1;
