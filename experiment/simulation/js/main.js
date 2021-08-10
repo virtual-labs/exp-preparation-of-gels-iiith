@@ -7,6 +7,20 @@ let gel_color = "#556c80";
 let yellow = "#b0b816";
 let purple = "#a37bd1";
 
+const apparatusOptions = [
+  "agarose",
+  "buffer",
+  "solution",
+  "device-microwave",
+  "device-mold",
+];
+
+apparatusOptions.forEach(function (option) {
+  document.getElementById(option).style.pointerEvents = "none";
+});
+
+document.getElementById("agarose").style.pointerEvents = "auto";
+
 let fillSyringe = async () => {
   document.getElementById("line3").style.stopColor = gel_color;
   const line = document.getElementById("half-grad3");
@@ -365,8 +379,10 @@ async function moveSyringe() {
     }
     restartAnimation = false;
     setTimeout(function () {
+      //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
       document.getElementById("instruction").innerHTML =
         "Click on Restart option in the Control Menu to restart the experiment from scratch.";
+      //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
       document.getElementById("observation").innerHTML =
         "Click on Restart option in the Control Menu to restart the experiment from scratch.";
     }, 10000);
@@ -396,31 +412,40 @@ let setupMessages = [
 let setup = 0;
 
 function setupMessage() {
+  //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
   document.getElementById("instruction").innerHTML = setupMessages[setup];
+  //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
   document.getElementById("observation").innerHTML = setupMessages[setup];
   setup++;
+}
+
+function apparatusSetup(visibleID, oldOption, newOption) {
+  document.getElementById(visibleID).style.visibility = "visible";
+  document.getElementById(oldOption).style.pointerEvents = "none";
+  document.getElementById(newOption).style.pointerEvents = "auto";
 }
 
 setupMessage();
 async function visibility(x) {
   if (x === 1 && overallIteration === -4) {
-    document.getElementById("agarose-beaker").style.visibility = "visible";
+    apparatusSetup("agarose-beaker", "agarose", "buffer");
     overallIteration++;
     setupMessage();
   } else if (x === 2 && overallIteration === -3) {
-    document.getElementById("buffer-beaker").style.visibility = "visible";
+    apparatusSetup("buffer-beaker", "buffer", "solution");
     overallIteration++;
     setupMessage();
   } else if (x === 3 && overallIteration === -2) {
-    document.getElementById("solution-beaker").style.visibility = "visible";
+    apparatusSetup("solution-beaker", "solution", "device-microwave");
     overallIteration++;
     setupMessage();
   } else if (x === 4 && overallIteration === -1) {
-    document.getElementById("microwave-row").style.visibility = "visible";
+    apparatusSetup("microwave-row", "device-microwave", "device-mold");
     overallIteration++;
     setupMessage();
   } else if (x === 5 && overallIteration === 0) {
-    document.getElementById("mold-row").style.visibility = "visible";
+    apparatusSetup("mold-row", "device-mold", "restart");
+    document.getElementById("agarose-beaker").style.cursor = "pointer";
     overallIteration++;
     changeMessage();
   }
@@ -438,11 +463,11 @@ let instructionMessages = [
 let iter1 = -1;
 function changeMessage() {
   iter1++;
+  //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
   document.getElementById("instruction").innerHTML = instructionMessages[iter1];
+  //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
   document.getElementById("observation").innerHTML = instructionMessages[iter1];
 }
-
-document.getElementById("agarose-beaker").style.cursor = "pointer";
 
 function screenWidth() {
   divWidth = document.getElementById("workspace").clientWidth;
@@ -457,11 +482,20 @@ document.getElementById("simulation").style.minHeight =
 let restartAnimation = false;
 
 async function restart() {
+  apparatusOptions.forEach(function (option) {
+    document.getElementById(option).style.pointerEvents = "none";
+  });
+  document.getElementById("agarose").style.pointerEvents = "auto";
+
   document.getElementById("simulation").style.height = originalSimulationHeight;
 
+  //"head-instructions" is the Heading of the Instructions HTML element that will be visible only in wide screens, i.e., width greater than 768px
   document.getElementById("head-instructions").innerHTML = "Instructions";
+  //"head-observations" is the Heading of the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
   document.getElementById("head-observations").innerHTML = "Instructions";
+  //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
   document.getElementById("instruction").innerHTML = "";
+  //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
   document.getElementById("observation").innerHTML = "";
   overallIteration = -4;
 
@@ -480,7 +514,7 @@ async function restart() {
   restartAnimation = true;
 
   document.getElementById("buffer-beaker").style.cursor = "default";
-  document.getElementById("agarose-beaker").style.cursor = "pointer";
+  document.getElementById("agarose-beaker").style.cursor = "default";
   document.getElementById("solution-beaker").style.cursor = "default";
 
   // Resetting the Solution Beaker
