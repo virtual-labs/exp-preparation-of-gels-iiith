@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.How would you differentiate a colloid mixture from a solution?",
+      "answers": {
+        "a": "The colloid's particles are larger.",
+        "b": "The colloid's particles are smaller.",
+        "c": "A colloid has a positive charge.",
+        "d": "A colloid has a negative charge."
+      },
+      "explanations": {
+        "a": "a colloidal solution has larger sized particles dispersed in solvent which can be seen using the tyndall effect too.",
+        "b": "solution has smaller particles than colloids. A solution does not show a tyndall effect.",
+        "c": "charges do not play a key role in differentiating colloid and solution.",
+        "d": "irrespective of positive or negative charge, charges do not affect the differentiation between colloid and solution."
+      },
+      "difficulty": "beginner",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "2. What technique can be used to distinguish between a suspension and a colloid?",
+      "answers": {
+        "a": "By shaking and watching for separation.",
+        "b": "By heating the mixture to boiling.",
+        "c": "By freezing the mixture to a solid state.",
+        "d": "By tyndall effect."
+      },
+      "explanations": {
+        "a": "shaking the mixture and letting it settle can separate a suspension from colloid. The particles in suspension separate out while in colloids it does not.",
+        "b": "heating the mixture will increase the solubility of the solvent in both cases to some extent but will not help in separation.",
+        "c": "freezing will not help as the particles will freeze in suspended state in both the mixtures.",
+        "d": "both will show tyndall effect."
+      },
+      "difficulty": "intermediate",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "3. How will the gel property change if the concentration of buffer solution is increased?",
+      "answers": {
+        "a": "The gel becomes less stable",
+        "b": "the strength of the agar agar gel decreases.",
+        "c": "pore size increases in agar agar gel.",
+        "d": "the gels become harder."
+      },
+      "explanations": {
+        "a": "stability of gel depends on degree of hydration and charge.",
+        "b": "strength depends on pH, sugar content, rate of gelation.",
+        "c": "interstitial pore size depends strongly on the ionic strength, which in turn is moderated by buffer. With increase in buffer concentration and lower agarose concentration, pore size increases.",
+        "d": "increasing the quantity of sugar gives harder gels."
+      },
+      "difficulty": "intermediate",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "4. Agar is known to have a high hysteresis due to which it has the following benefits:",
+      "answers": {
+        "a": "it is remarkably stable only at low temperatures.",
+        "b": "it is stable in a wide range of temperatures.",
+        "c": "It is highly stable in higher temperatures.",
+        "d": "does not solidify easily and needs refrigeration."
+      },
+      "explanations": {
+        "a": "hysteresis is the difference between the gelling and melting temperatures of a gel. Agar has a gelling temperature of 34-38 C and melts if heated to 85-90 C. hence it is not so stable in lower temperatures.",
+        "b": "having a large hysteresis is indicative of a wide stable range.",
+        "c": "only upto its melting temperature of 85-90 C , agar is stable beyond which its nature starts degrading.",
+        "d": "agar solidifies easily and does not need refrigeration."
+      },
+      "difficulty": "advanced",
+      "correctAnswer": "b"
+    }
+  ]
+}
