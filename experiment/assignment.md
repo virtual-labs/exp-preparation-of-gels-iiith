@@ -1,4 +1,4 @@
-**Pre-Experiment**  
+**Pre-Assignment**  
 
 1. Is gel a liquid-solid, solid-gas or liquid-gas system of colloids?  
 2. In colloidal gel system, which one – the dispersion medium or the dispersed medium – is more by volume and weight?   
@@ -9,7 +9,7 @@
 7. What happens to the network mesh size on increasing the concentration of agar?  
 8. "Edible jelly has approximately the density of water." Justify.  
 
-**Post-Experiment**
+**Post-Assignment**
 
 1. Can one use buffer solution of any pH for the preparation of agar gel?  
 2. How will the gel property change if the concentration of buffer solution is increased?  
