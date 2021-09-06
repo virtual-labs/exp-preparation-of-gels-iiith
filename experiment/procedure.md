@@ -1,14 +1,9 @@
-**To start the experiment do the following:**
+**Follow the given procedure once all the apparatus has been introduced in the workspace:**
 
-1. Take a beaker [by clicking on the beaker] of size 2 to 3 times more than the volume of the solution to be prepared.  
-2. Add required quantity of agar-agar powder to the beaker for the preparation of a 1.0% agar-agar aqueous solution. [Click on the agar container’s spoon to transfer]  
-3. Add required volume of (1x TBE (Tris-Borate-EDTA), pH 8.6) buffer solution [by clicking on the buffer container]. To facilitate dissolution and avoid clumping of agar, add agar powder slowly to cool buffer solution. Allow agar powder to hydrate in the solution for a few minutes before heating for melting and dissolution. These steps allow a quicker and easier dissolution and reduce foaming.  
-4. Cover the top of the beaker with a wrap loosely to prevent the solution from boiling over.  
-5. Place the beaker in the microwave oven [by clicking on the beaker]. In real operation, one should adjust time and power settings according to the oven output strength. Alternatively, the solution can be heated on a hot plate or over a Bunsen burner.  
-6. Dissolve agar by heating the solution to the boiling temperature of water in the microwave oven. The solution is boiled only to the extent that ensures total dissolution of agar. Over boiling results in agarose hydrolysis and lower gel strength. In order to prevent overheating, one should put on hot gloves, remove the beaker at regular intervals from the microwave oven, swirl it gently, and place it back in the oven for heating again until the agar melts completely.  
-7. Remove the wrap. Pour about half of the hot solution in the mould [by clicking on the beaker]. In order to avoid bubble formation and warping of casting tray, one should cool the solution to ~60°C (until the beaker is just comfortable to touch) and pour it carefully into the gel mould.  
-8. Allow the solution to cool slowly in the mould because rapid cooling causes irregular gel matrix.  
-9. Place an appropriate thermometer in the in the beaker containing half of the hot solution. Allow the solution to cool slowly and observe the temperature fall in the thermometer. In order to note down the gelling temperature, tumble the beaker at regular intervals. The gelation point (temperature) is marked down as the midpoint between the last time (temperature) when there was flow and first time when there is no flow of the agar sample on tumbling the beaker. If one observes the sample carefully, one may recognise the point of gelation visually too. The clear hot solution turns slightly opaque on solidifying.  
-10. Place the beaker containing gel in a water bath at 70°C for 1 h. Observe whether the gel melts or not. Increase the temperature of the water bath to 90°C, and observe the gel melting temperature when the gel in the beaker is liquefied forming a clear solution. The melting temperature is marked down as the midpoint between the last time (temperature) when there was no flow and first time when there is flow of the agar sample on tumbling the beaker. If one observes the sample carefully, one may recognise the gel melting temperature visually too.  
-11. Determine the gelling hysteresis for the agar-agar sample. Compare the gelling hysteresis of agarose gel with that of gelatin gel.  
-
+1. Click on the Agarose Beaker to transfer a small amount (around 1mg) of Aragose into the empty Solution Beaker.
+2. Click on the Buffer Beaker to transfer 5 ml of the Buffer Solvent to the Solution Beaker.
+3. Click on the Solution Beaker to shake it and make a clear solution.
+4. Click on the Solution Beaker to place it in the Microwave. The solution needs to be heated at a high temperature for some time.
+5. Click on the Microwave now to take out the Solution Beaker.
+6. Click on the Solution Beaker to transfer some amount of the Gel Solution to the Gel Mold
+7. Wait for the Gel Solution to cool down in the mold, and then you have successfully prepared your Gel.
