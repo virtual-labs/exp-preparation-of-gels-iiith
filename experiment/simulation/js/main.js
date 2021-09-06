@@ -20,7 +20,6 @@ apparatusOptions.forEach(function (option) {
 });
 
 document.getElementById("agarose").style.pointerEvents = "auto";
-
 let fillSyringe = async () => {
   document.getElementById("line3").style.stopColor = gel_color;
   const line = document.getElementById("half-grad3");
@@ -415,6 +414,7 @@ function setupMessage() {
   //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
   document.getElementById("instruction").innerHTML = setupMessages[setup];
   //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
+
   document.getElementById("observation").innerHTML = setupMessages[setup];
   setup++;
 }
@@ -496,6 +496,7 @@ async function restart() {
   //"instruction" is the Instructions HTML element that will be visible only in wide screens, i.e, width greater than 768px
   document.getElementById("instruction").innerHTML = "";
   //"observation" is the Instructions HTML element that will be visible only in small screens, i.e., width smaller than 769px
+
   document.getElementById("observation").innerHTML = "";
   overallIteration = -4;
 
